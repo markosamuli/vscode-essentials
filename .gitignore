@@ -1,0 +1,6 @@
+# IDE config
+.vscode/**
+!.vscode/cSpell.json
+
+# Packages
+*.vsix
