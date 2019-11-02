@@ -17,7 +17,9 @@
   ],
   "scripts": {
     "package": "npx vsce package",
-    "publish": "npx vsce publish"
+    "publish": "npx vsce publish",
+    "preinstall-extension": "npm run package",
+    "install-extension": "code --install-extension $(npm ls | head -1 | cut -d@ -f1)-$(npm ls | head -1 | cut -d@ -f2 | cut -d\\  -f1).vsix"
   },
   "extensionPack": [
     "bungcip.better-toml",

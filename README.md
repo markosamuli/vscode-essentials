@@ -1,5 +1,19 @@
 # README
 
+## Install
+
+Install extensions from a local package:
+
+```bash
+npm run install-extension
+```
+
+Install extensions from the marketplace
+
+```bash
+code --install-extension markosamuli.vscode-essentials
+```
+
 ## General extensions
 
 | Extension            | Description
@@ -79,3 +93,23 @@ Extensions when working with Docker containers.
 | [Material Icons] | Icons based on Material Design for Visual Studio Code.
 
 [Material Icons]: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+## Development
+
+Install Visual Studio Code Extensions CLI:
+
+```bash
+npm install -g vsce
+```
+
+Build extension package:
+
+```bash
+npm run package
+```
+
+Publish new version to the marketplace:
+
+```bash
+npm run publish
+```
