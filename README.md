@@ -64,7 +64,7 @@ code --install-extension markosamuli.vscode-essentials
 [YAML]: https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
 [Better TOML]: https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml
 [XML Tools]: https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
-[Go]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
+[Go]: https://marketplace.visualstudio.com/items?itemName=golang.Go
 [Python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [Prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 
